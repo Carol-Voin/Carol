@@ -4,6 +4,7 @@ body{
     justify-content: center;
     background-color: #0a0a0a;
     height: 100vh;
+    flex-direction: column;
 }
 
 h1{
@@ -12,4 +13,12 @@ h1{
     filter: drop-shadow(0 0 17px white);
     font-family: sans-serif;
 
+}
+
+button{
+    padding : 15px 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: white;
+    color: black;
 }
