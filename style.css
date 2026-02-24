@@ -16,6 +16,11 @@ h1{
 
 }
 
+p{
+    color:grey;
+    margin:15px;
+}
+
 button{
     padding : 5px 15px;
     border-radius: 5px;
@@ -26,6 +31,7 @@ button{
     filter: drop-shadow(0 0 7px lightgrey);
     cursor:pointer;
 }
+
 
 
 
