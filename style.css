@@ -79,6 +79,7 @@ main button{
     cursor:pointer;
     margin: 10px;
     transition: .3s ease;
+    user-select: none;
 }
 
 main button:hover{
@@ -105,6 +106,10 @@ main button:active{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+i{
+    user-select: none;
 }
 
 .links i, .skills i{
@@ -324,6 +329,10 @@ main button:active{
         font-size: 50px;
     }
 
+    main h1 span{
+        font-size: 65px;
+    }
+
     main p{
         font-size: 17px;
     }
@@ -337,3 +346,4 @@ main button:active{
     }
 
 }
+
