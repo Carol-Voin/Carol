@@ -18,22 +18,18 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* backdrop-filter: blur(7px); */
     border-radius: 30px;
-    /* background: #0a0a0a4b; */
-    /* padding: 50px 70px; */
-    /* filter: drop-shadow(0 0 7px #0000008a); */
     height: 100%;
 }
 
 main h1{
     font-size: 80px;
     color: white;
-    /* filter: drop-shadow(0 0 17px #ffffff80); */
     font-family: sans-serif;
     margin: 10px;
     text-shadow: 0 0 17px #ffffff80;
     text-align: center;
+    user-select: none;
 
 }
 
@@ -42,10 +38,8 @@ main h1 span{
     font-family: "Platypi", serif;
     font-weight: 800;
     position: relative;
-    user-select: none;
     color: #81a0e2;
     text-shadow: 0 0 17px #81a0e2a8;
-    /* filter: drop-shadow(0 0 17px #81a0e23d); */
 
 }
 
@@ -140,7 +134,6 @@ i{
 }
 
 .links i:hover, .skills i:hover{
-    /* filter: drop-shadow(0 0 7px lightgrey); */
     color: #fff;
     scale: 1.1;
     text-shadow: 0 0 17px white;
@@ -180,7 +173,6 @@ i{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    /* Add your background pattern here */
     background-color: #31313111;
     background-image: radial-gradient(rgba(232, 231, 171, 0.13) 1.5px, transparent 0);
     background-size: 30px 30px;
@@ -195,14 +187,6 @@ i{
     width: 100%;
     position: fixed;
 }
-
-/* .sun-rays{
-    box-shadow: 0 0 350px 50px rgb(255, 254, 200),
-    0 0 450px 120px white;
-    position: absolute;
-    top: -150px;
-    z-index: 3;
-} */
 
 .spotlight{
     box-shadow: 0 0 150px 50px white,
@@ -253,34 +237,6 @@ i{
     transition: ease-in-out .5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Sun Rays CSS */
 .sun-rays {
     position: fixed;
     top: -250px;
@@ -366,8 +322,6 @@ i{
         opacity: 1;
     }
 }
-
-
 
 
 
